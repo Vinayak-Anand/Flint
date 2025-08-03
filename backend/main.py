@@ -1,6 +1,8 @@
 # rag_agent_app/backend/main.py
 
+import sys
 import os
+sys.path.append(os.path.dirname(__file__))
 import time
 from typing import List, Dict, Any
 import tempfile
